@@ -32,16 +32,21 @@
 }
 
 /* line 1, ../sass/module/_navbar.scss */
+.navbar {
+  margin: 0;
+}
+
+/* line 4, ../sass/module/_navbar.scss */
 .navbar-inverse {
   border: 0;
   border-radius: 0;
   background-color: #014a81;
 }
-/* line 5, ../sass/module/_navbar.scss */
+/* line 8, ../sass/module/_navbar.scss */
 .navbar-inverse .navbar-brand {
   color: #fff;
 }
-/* line 9, ../sass/module/_navbar.scss */
+/* line 12, ../sass/module/_navbar.scss */
 .navbar-inverse .navbar-nav li a {
   color: #fff;
   text-transform: uppercase;
