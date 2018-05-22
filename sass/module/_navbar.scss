@@ -1,3 +1,14 @@
-.navbar{
+.navbar-inverse{
+	border: 0;
 	border-radius: 0;
+	background-color: $primary-color;
+	.navbar-brand{
+		color: #fff;
+	}
+	.navbar-nav{
+		li a{
+			color: #fff;
+			text-transform: uppercase;
+		}
+	}
 }
