@@ -1,0 +1,16 @@
+.services{
+	&--item{
+		text-align: center;
+		padding: 10px;
+		i{
+			font-size: 80px;
+			color: $primary-color;
+			margin: 15px;
+		}
+		h4{
+			text-transform: uppercase;
+			font-weight: bold;
+			
+		}
+	}
+}

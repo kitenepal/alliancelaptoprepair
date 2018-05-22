@@ -10,6 +10,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="icon" href="https://alliancelaptoptraining.com.np/front/img/logo.png">
 	<link rel="stylesheet" type="text/css" href="stylesheets/kitenepal/kitenepal.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 </head>
 <body>
@@ -63,17 +66,54 @@
 	   </div>
 	</div>
 </section>
-<script>
-$(".slideshow > div:gt(0)").hide();
+	<!-- Services -->
+	<section class="services section-padding">
+		<div class="container">
+			<div class="row">
+				<h1 class="text-center">Our Laptop repair & sales services</h1>
+				<div class="col-md-4">
+					<div class="services--item">
+						<i class="fa fa-cart-plus"></i>
+						<h4>Sales</h4>
+						<p>Different Brand of Laptop</p>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+						<a href="#"><button class="btn primary-btn">Read More</button></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="services--item">
+						<i class="fa fa-cogs"></i>
+						<h4>Repairs</h4>
+						<p>All Kinds Of Laptop & Desktop</p>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+						<a href="#"><button class="btn primary-btn">Read More</button></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="services--item">
+						<i class="fa fa-support"></i>
+						<h4>SUPPORT</h4>
+						<p>Hardware & Software Support</p>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+						<a href="#"><button class="btn primary-btn">Read More</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /Services -->
 
-setInterval(function() {
-$('.slideshow > div:first')
-	.fadeOut(1000)
-	.next()
-	.fadeIn(1000)
-	.end()
-	.appendTo('.slideshow');
-},5000);
-</script>
+	<script>
+	$(".slideshow > div:gt(0)").hide();
+
+	setInterval(function() {
+	$('.slideshow > div:first')
+		.fadeOut(1000)
+		.next()
+		.fadeIn(1000)
+		.end()
+		.appendTo('.slideshow');
+	},5000);
+	</script>
 </body>
 </html>
