@@ -81,6 +81,15 @@ body p, body li, body a, body button {
   text-transform: uppercase;
 }
 
+/* line 2, ../sass/module/_slider.scss */
+.carousel-caption h3 {
+  text-align: left;
+}
+/* line 5, ../sass/module/_slider.scss */
+.carousel-caption p {
+  text-align: left;
+}
+
 /* line 2, ../sass/module/_services.scss */
 .services--item {
   text-align: center;
