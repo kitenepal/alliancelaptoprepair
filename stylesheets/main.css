@@ -13,3 +13,22 @@
   color: #fff;
   text-transform: uppercase;
 }
+
+/* line 1, ../sass/module/_slider.scss */
+.slideshow {
+  position: static;
+}
+/* line 3, ../sass/module/_slider.scss */
+.slideshow div {
+  position: absolute;
+}
+/* line 5, ../sass/module/_slider.scss */
+.slideshow div .caption {
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}

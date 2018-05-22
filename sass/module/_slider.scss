@@ -1,0 +1,15 @@
+.slideshow{
+  position: static;
+  div {
+    position: absolute;
+      .caption{
+        position: absolute;
+        z-index: 10;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+      }
+  }
+}
