@@ -1,7 +1,27 @@
-
+body{
+	background-image: url('../image/background.jpg');
+	background-attachment: fixed;
+	h3{
+		font-family: $secondary-font;
+	}
+	h4{
+		font-family: $secondary-font;
+		color: $primary-color;	
+	}
+	p, li, a, button{
+		font-family: $secondary-font;
+		font-size: 18px;	
+	}
+}
 // section padding
 .section-padding{
 	padding: 40px 0;
+}
+// heading
+.heading{
+	font-family: $primary-font;
+	text-transform: uppercase;
+	margin: 40px 0px;
 }
 // primary button
 .primary-btn{

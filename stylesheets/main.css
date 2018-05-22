@@ -1,9 +1,38 @@
-/* line 3, ../sass/base/_base.scss */
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Abel");
+/* line 1, ../sass/base/_base.scss */
+body {
+  background-image: url("../image/background.jpg");
+  background-attachment: fixed;
+}
+/* line 4, ../sass/base/_base.scss */
+body h3 {
+  font-family: "Abel", sans-serif;
+}
+/* line 7, ../sass/base/_base.scss */
+body h4 {
+  font-family: "Abel", sans-serif;
+  color: #014a81;
+}
+/* line 11, ../sass/base/_base.scss */
+body p, body li, body a, body button {
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+}
+
+/* line 17, ../sass/base/_base.scss */
 .section-padding {
   padding: 40px 0;
 }
 
-/* line 7, ../sass/base/_base.scss */
+/* line 21, ../sass/base/_base.scss */
+.heading {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  margin: 40px 0px;
+}
+
+/* line 27, ../sass/base/_base.scss */
 .primary-btn {
   background-color: #3ca522;
   color: #fff;
@@ -15,7 +44,7 @@
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
 }
-/* line 17, ../sass/base/_base.scss */
+/* line 37, ../sass/base/_base.scss */
 .primary-btn:hover {
   background-color: #2c8715;
   cursor: pointer;
@@ -23,7 +52,7 @@
   transform: translateY(-7px);
   color: #fff;
 }
-/* line 24, ../sass/base/_base.scss */
+/* line 44, ../sass/base/_base.scss */
 .primary-btn:active {
   border-radius: 0px;
   -moz-box-shadow: inset 0 0 2px #003860;
@@ -32,16 +61,21 @@
 }
 
 /* line 1, ../sass/module/_navbar.scss */
+.navbar {
+  margin: 0;
+}
+
+/* line 4, ../sass/module/_navbar.scss */
 .navbar-inverse {
   border: 0;
   border-radius: 0;
   background-color: #014a81;
 }
-/* line 5, ../sass/module/_navbar.scss */
+/* line 8, ../sass/module/_navbar.scss */
 .navbar-inverse .navbar-brand {
   color: #fff;
 }
-/* line 9, ../sass/module/_navbar.scss */
+/* line 12, ../sass/module/_navbar.scss */
 .navbar-inverse .navbar-nav li a {
   color: #fff;
   text-transform: uppercase;
