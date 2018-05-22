@@ -106,3 +106,9 @@ body p, body li, body a, body button {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+/* line 1, ../sass/module/_about.scss */
+.about {
+  background-color: #014a81;
+  color: #fff;
+}
