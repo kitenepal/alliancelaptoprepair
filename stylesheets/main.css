@@ -71,12 +71,13 @@ body p, body li, body a, body button {
   border: 0;
   border-radius: 0;
   background-color: #014a81;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/* line 8, ../sass/module/_navbar.scss */
+/* line 9, ../sass/module/_navbar.scss */
 .navbar-inverse .navbar-brand {
   color: #fff;
 }
-/* line 12, ../sass/module/_navbar.scss */
+/* line 13, ../sass/module/_navbar.scss */
 .navbar-inverse .navbar-nav li a {
   color: #fff;
   text-transform: uppercase;
