@@ -332,6 +332,10 @@ body p, body li, body a, body button {
   background-color: #014a81;
   color: #fff;
 }
+/* line 4, ../sass/module/_about.scss */
+.about img {
+  padding: 10px 0;
+}
 
 /* line 2, ../sass/module/_repair.scss */
 .repair--list {
