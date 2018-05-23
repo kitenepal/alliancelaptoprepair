@@ -88,10 +88,15 @@ body p, body li, body a, body button {
 }
 
 /* line 5, ../sass/module/_slider.scss */
-.carousel-caption h3, .carousel-caption p {
+.carousel-caption h1 {
   text-align: left;
 }
 /* line 8, ../sass/module/_slider.scss */
+.carousel-caption p {
+  text-align: left;
+  font-size: 1.5em;
+}
+/* line 12, ../sass/module/_slider.scss */
 .carousel-caption .carousel-btn {
   background-color: #3ca522;
   color: #fff;
@@ -104,43 +109,47 @@ body p, body li, body a, body button {
   margin: 0px;
   transition: all 0.3s ease 0s;
 }
-/* line 19, ../sass/module/_slider.scss */
+/* line 23, ../sass/module/_slider.scss */
 .carousel-caption .carousel-btn:hover {
   background-color: #fff;
   color: #2c8715;
 }
 
 @media screen and (max-width: 450px) {
-  /* line 26, ../sass/module/_slider.scss */
+  /* line 30, ../sass/module/_slider.scss */
+  .carousel-caption {
+    padding-bottom: 5px;
+  }
+  /* line 32, ../sass/module/_slider.scss */
   .carousel-caption .carousel-btn {
     padding: 2px 10px;
   }
 }
-/* line 31, ../sass/module/_slider.scss */
+/* line 38, ../sass/module/_slider.scss */
 .flickity-enabled {
   position: relative;
 }
 
-/* line 32, ../sass/module/_slider.scss */
+/* line 39, ../sass/module/_slider.scss */
 .flickity-enabled:focus {
   outline: 0;
 }
 
-/* line 33, ../sass/module/_slider.scss */
+/* line 40, ../sass/module/_slider.scss */
 .flickity-viewport {
   overflow: hidden;
   position: relative;
   height: 100%;
 }
 
-/* line 34, ../sass/module/_slider.scss */
+/* line 41, ../sass/module/_slider.scss */
 .flickity-slider {
   position: absolute;
   width: 100%;
   height: 100%;
 }
 
-/* line 35, ../sass/module/_slider.scss */
+/* line 42, ../sass/module/_slider.scss */
 .flickity-enabled.is-draggable {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -148,20 +157,20 @@ body p, body li, body a, body button {
   user-select: none;
 }
 
-/* line 36, ../sass/module/_slider.scss */
+/* line 43, ../sass/module/_slider.scss */
 .flickity-enabled.is-draggable .flickity-viewport {
   cursor: move;
   cursor: -webkit-grab;
   cursor: grab;
 }
 
-/* line 37, ../sass/module/_slider.scss */
+/* line 44, ../sass/module/_slider.scss */
 .flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
   cursor: -webkit-grabbing;
   cursor: grabbing;
 }
 
-/* line 38, ../sass/module/_slider.scss */
+/* line 45, ../sass/module/_slider.scss */
 .flickity-prev-next-button {
   position: absolute;
   top: 50%;
@@ -177,53 +186,53 @@ body p, body li, body a, body button {
   transform: translateY(-50%);
 }
 
-/* line 39, ../sass/module/_slider.scss */
+/* line 46, ../sass/module/_slider.scss */
 .flickity-prev-next-button:hover {
   background: #fff;
 }
 
-/* line 40, ../sass/module/_slider.scss */
+/* line 47, ../sass/module/_slider.scss */
 .flickity-prev-next-button:focus {
   outline: 0;
   box-shadow: 0 0 0 5px #09F;
 }
 
-/* line 41, ../sass/module/_slider.scss */
+/* line 48, ../sass/module/_slider.scss */
 .flickity-prev-next-button:active {
   filter: alpha(opacity=60);
   opacity: .6;
 }
 
-/* line 42, ../sass/module/_slider.scss */
+/* line 49, ../sass/module/_slider.scss */
 .flickity-prev-next-button.previous {
   left: 10px;
 }
 
-/* line 43, ../sass/module/_slider.scss */
+/* line 50, ../sass/module/_slider.scss */
 .flickity-prev-next-button.next {
   right: 10px;
 }
 
-/* line 44, ../sass/module/_slider.scss */
+/* line 51, ../sass/module/_slider.scss */
 .flickity-rtl .flickity-prev-next-button.previous {
   left: auto;
   right: 10px;
 }
 
-/* line 45, ../sass/module/_slider.scss */
+/* line 52, ../sass/module/_slider.scss */
 .flickity-rtl .flickity-prev-next-button.next {
   right: auto;
   left: 10px;
 }
 
-/* line 46, ../sass/module/_slider.scss */
+/* line 53, ../sass/module/_slider.scss */
 .flickity-prev-next-button:disabled {
   filter: alpha(opacity=30);
   opacity: .3;
   cursor: auto;
 }
 
-/* line 47, ../sass/module/_slider.scss */
+/* line 54, ../sass/module/_slider.scss */
 .flickity-prev-next-button svg {
   position: absolute;
   left: 20%;
@@ -232,18 +241,18 @@ body p, body li, body a, body button {
   height: 60%;
 }
 
-/* line 48, ../sass/module/_slider.scss */
+/* line 55, ../sass/module/_slider.scss */
 .flickity-prev-next-button .arrow {
   fill: #333;
 }
 
-/* line 49, ../sass/module/_slider.scss */
+/* line 56, ../sass/module/_slider.scss */
 .flickity-prev-next-button.no-svg {
   color: #333;
   font-size: 26px;
 }
 
-/* line 50, ../sass/module/_slider.scss */
+/* line 57, ../sass/module/_slider.scss */
 .flickity-page-dots {
   position: absolute;
   width: 100%;
@@ -255,12 +264,12 @@ body p, body li, body a, body button {
   line-height: 1;
 }
 
-/* line 51, ../sass/module/_slider.scss */
+/* line 58, ../sass/module/_slider.scss */
 .flickity-rtl .flickity-page-dots {
   direction: rtl;
 }
 
-/* line 52, ../sass/module/_slider.scss */
+/* line 59, ../sass/module/_slider.scss */
 .flickity-page-dots .dot {
   display: inline-block;
   width: 10px;
@@ -273,30 +282,30 @@ body p, body li, body a, body button {
   cursor: pointer;
 }
 
-/* line 53, ../sass/module/_slider.scss */
+/* line 60, ../sass/module/_slider.scss */
 .flickity-page-dots .dot.is-selected {
   filter: alpha(opacity=100);
   opacity: 1;
 }
 
-/* line 57, ../sass/module/_slider.scss */
+/* line 64, ../sass/module/_slider.scss */
 #testimonial {
   box-sizing: border-box;
 }
 
-/* line 61, ../sass/module/_slider.scss */
+/* line 68, ../sass/module/_slider.scss */
 .main-gallery {
   background: #fff;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
   border-top: solid 10px #2189d3;
 }
 
-/* line 67, ../sass/module/_slider.scss */
+/* line 74, ../sass/module/_slider.scss */
 .gallery-cell {
   width: 100%;
 }
 
-/* line 71, ../sass/module/_slider.scss */
+/* line 78, ../sass/module/_slider.scss */
 .testimonial {
   text-align: center;
   max-width: 850px;
@@ -304,13 +313,13 @@ body p, body li, body a, body button {
   padding: 0 20px;
 }
 
-/* line 78, ../sass/module/_slider.scss */
+/* line 85, ../sass/module/_slider.scss */
 .testimonial-avatar {
   width: 100px;
   border-radius: 50%;
 }
 
-/* line 83, ../sass/module/_slider.scss */
+/* line 90, ../sass/module/_slider.scss */
 .testimonial-quote {
   display: block;
   font-size: 24px;
@@ -318,19 +327,19 @@ body p, body li, body a, body button {
   padding: 10px 0;
 }
 
-/* line 90, ../sass/module/_slider.scss */
+/* line 97, ../sass/module/_slider.scss */
 .testimonial-author {
   display: block;
   font-weight: 800;
   color: #2189d3;
 }
 
-/* line 96, ../sass/module/_slider.scss */
+/* line 103, ../sass/module/_slider.scss */
 .flickity-page-dots {
   bottom: 25px;
 }
 
-/* line 100, ../sass/module/_slider.scss */
+/* line 107, ../sass/module/_slider.scss */
 .flickity-page-dots .dot.is-selected {
   background: #2189d3;
 }
