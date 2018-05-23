@@ -5,10 +5,13 @@ footer{
 	}
 	.social-icon{
 		margin: 0px;
-		background-color: $dark-primary;
 		color: #fff;
 		height: 35px;
 		font-size: 1.5em;
+		.col-md-6{
+			background-color: $dark-primary;
+			padding-bottom: 5px;
+		}
 		p{
 			padding-top: 5px;
 			margin: 0px;

@@ -379,35 +379,39 @@ footer .map-location {
 /* line 6, ../sass/module/_footer.scss */
 footer .social-icon {
   margin: 0px;
-  background-color: #003860;
   color: #fff;
   height: 35px;
   font-size: 1.5em;
 }
-/* line 12, ../sass/module/_footer.scss */
+/* line 11, ../sass/module/_footer.scss */
+footer .social-icon .col-md-6 {
+  background-color: #003860;
+  padding-bottom: 5px;
+}
+/* line 15, ../sass/module/_footer.scss */
 footer .social-icon p {
   padding-top: 5px;
   margin: 0px;
 }
-/* line 15, ../sass/module/_footer.scss */
+/* line 18, ../sass/module/_footer.scss */
 footer .social-icon p a {
   color: #e5ec12;
 }
-/* line 19, ../sass/module/_footer.scss */
+/* line 22, ../sass/module/_footer.scss */
 footer .social-icon a {
   color: #fff;
   text-decoration: none;
 }
-/* line 23, ../sass/module/_footer.scss */
+/* line 26, ../sass/module/_footer.scss */
 footer .social-icon i {
   padding-left: 10px;
   transition: 0.5s;
 }
-/* line 27, ../sass/module/_footer.scss */
+/* line 30, ../sass/module/_footer.scss */
 footer .social-icon .fa-facebook:hover {
   color: #2189d3;
 }
-/* line 30, ../sass/module/_footer.scss */
+/* line 33, ../sass/module/_footer.scss */
 footer .social-icon .fa-youtube:hover {
   color: red;
 }
