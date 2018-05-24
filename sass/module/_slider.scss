@@ -4,6 +4,9 @@
 .carousel-caption{
   h1{
     text-align: left;
+    strong{
+      color: $faded-primary;
+    }
   }
   p{
     text-align: left;
@@ -26,11 +29,26 @@
   	}
   }
 }
-@media screen and (max-width:450px){
+@media screen and (max-width:600px){
   .carousel-caption{
-    padding-bottom: 5px;
+    padding-bottom: 2px;
+    h1{
+      font-size: 20px;
+      margin: 0px;
+    }
+    p{
+      margin: 0px;
+    }
     .carousel-btn{
       padding: 2px 10px;
+    }
+  }
+}
+
+@media screen and (min-width:400px){
+  .carousel-caption{
+    p{
+      font-size: 1.8em;
     }
   }
 }
