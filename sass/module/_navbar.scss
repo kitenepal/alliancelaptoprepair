@@ -19,6 +19,10 @@
 		}
 	}
 	.dropdown{
+		cursor: pointer;
+		&:hover .show-me{
+			display: block;
+		}
 		ul{
 			background-color: $primary-color;
 			width:fit-content;
@@ -33,6 +37,9 @@
 
 .dropdown-submenu {
     position: relative;
+		&:hover .dropdown-menu{
+			display: block;
+		}
 }
 
 .dropdown-submenu .dropdown-menu {
