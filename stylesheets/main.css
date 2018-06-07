@@ -91,19 +91,20 @@ body p, body li, body a, body button {
 .navbar-inverse .dropdown ul {
   background-color: #014a81;
   width: fit-content;
+  width: -moz-fit-content;
 }
-/* line 26, ../sass/module/_navbar.scss */
+/* line 27, ../sass/module/_navbar.scss */
 .navbar-inverse .dropdown .dropdown-menu li a:hover, .navbar-inverse .dropdown :focus {
   color: #014a81;
   background-color: #fff;
 }
 
-/* line 33, ../sass/module/_navbar.scss */
+/* line 34, ../sass/module/_navbar.scss */
 .dropdown-submenu {
   position: relative;
 }
 
-/* line 37, ../sass/module/_navbar.scss */
+/* line 38, ../sass/module/_navbar.scss */
 .dropdown-submenu .dropdown-menu {
   top: 0;
   left: 100%;

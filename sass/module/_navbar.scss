@@ -21,7 +21,8 @@
 	.dropdown{
 		ul{
 			background-color: $primary-color;
-			width: fit-content;
+			width:fit-content;
+			width:-moz-fit-content;
 		}
 		.dropdown-menu li a:hover,:focus{
 			color:$primary-color;
