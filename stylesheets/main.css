@@ -67,20 +67,47 @@ body p, body li, body a, body button {
 }
 
 /* line 4, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+  background-color: #014a81;
+}
+
+/* line 7, ../sass/module/_navbar.scss */
 .navbar-inverse {
   border: 0;
   border-radius: 0;
   background-color: #014a81;
   box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/* line 9, ../sass/module/_navbar.scss */
+/* line 12, ../sass/module/_navbar.scss */
 .navbar-inverse .navbar-brand {
   color: #fff;
 }
-/* line 13, ../sass/module/_navbar.scss */
+/* line 16, ../sass/module/_navbar.scss */
 .navbar-inverse .navbar-nav li a {
   color: #fff;
   text-transform: uppercase;
+}
+/* line 22, ../sass/module/_navbar.scss */
+.navbar-inverse .dropdown ul {
+  background-color: #014a81;
+  width: fit-content;
+}
+/* line 26, ../sass/module/_navbar.scss */
+.navbar-inverse .dropdown .dropdown-menu li a:hover, .navbar-inverse .dropdown :focus {
+  color: #014a81;
+  background-color: #fff;
+}
+
+/* line 33, ../sass/module/_navbar.scss */
+.dropdown-submenu {
+  position: relative;
+}
+
+/* line 37, ../sass/module/_navbar.scss */
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 0px;
 }
 
 /* line 1, ../sass/module/_slider.scss */
